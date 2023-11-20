@@ -130,7 +130,7 @@ const UserDataCollect = () => {
     }
     useEffect(() => {
         setThemeData({ ...themeData, personalData, projectData, educationData, workData, awardData })
-       
+
     }, [themeData, personalData, setThemeData, projectData, educationData, workData, awardData])
 
     return (
